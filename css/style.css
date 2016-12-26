@@ -1,0 +1,217 @@
+li {
+	display: inline;
+	padding-left: 10px;
+}
+
+ul {
+	margin: 0;
+}
+
+.navbar a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: black;
+	margin: 0;
+}
+
+.navbar {
+	width: 29%;
+	font-size: 13px;
+	float: right;
+	top: -25px;
+	position: relative;
+}
+
+.navigation {
+	float: left;
+	margin-top: 3px;
+}
+
+.options {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/resources.png);
+	background-position: -132px -38px;
+	margin-left: 20px;
+	position: relative;
+	top: -5px;
+}
+
+.options img {
+	width: 24px;
+	height: 24px;
+}
+
+.signin {
+	display: inline;
+	margin: 13px 2px 13px 10px;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 3px;
+	padding: 5px 10px;
+	cursor: default;
+}
+
+.signin:focus {
+	background-color: #060009;
+}
+
+.signin strong {
+	color: white;
+}
+
+.google {
+	height: 215px;
+	width: 546px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.google a {
+	height: 215px;
+	width: 546px;
+}
+
+.search {
+	width: 480px;
+	margin: auto;
+	height: 45px;
+	border: 1px solid #dddddd;
+	margin-top: 40px;
+	border-radius: 3px;
+	box-shadow: 1px 2px 2px #e4e4e4;
+}
+
+.search:hover {
+	box-shadow: 1px 3px 2px #e4e4e4;
+}
+
+form input {
+	display: inline;
+	float: left;
+	width: 400px;
+	height: 30px;
+	float: left;
+	border: none;
+	margin-left: 15px;
+	position: relative;
+	top: 8px;
+}
+
+form input:focus {
+	outline: none;
+}
+
+.search a {
+	float: right;
+	background-image: url(../img/microphone.png);
+	width: 50px;
+	height: 30px;
+	display: inline;
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 5px;
+	right: -15px;
+}
+
+.write {
+	height: 20px;
+}
+
+.buttons {
+	width: 30%;
+	margin: 30px auto;
+	clear: both;
+}
+
+.press, .lucky {
+	background-color: #f1f1f1;
+	font-size: 13px;
+	width: 38%;
+	margin: auto;
+	padding: 0 10px;
+}
+
+.press {
+	float: left;
+}
+
+.lucky {
+	float: right;
+}
+
+.press:hover, .lucky:hover {
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	cursor: default;
+}
+
+.press p:hover, .lucky p:hover {
+	color: #343434;
+}
+
+.press p, .lucky p {
+	font-weight: bold;
+	color: #606060;
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #f2f2f2;
+}
+
+.first_footer {
+	float: left;
+}
+
+.last_footer {
+	float: right;
+	position: fixed;
+	right: 0;
+}
+
+.footer a {
+	font-size: 13px;
+	color: #626262;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.first_footer, .last_footer {
+	margin: auto 0 auto 0;
+}
+
+.footer li {
+	padding-right: 20px;
+}
+
+#begin {
+	padding-left: 0;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+}
